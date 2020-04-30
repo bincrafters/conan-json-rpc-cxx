@@ -1,4 +1,4 @@
 sources:
-  "1.0.0":
-    url: "https://github.com/libauthor/libname"
-    sha256: "98f6f57aab0a424469619ed3047728f0d3901ce8f0dea919c11e7966d807e870"
+  "0.1.0":
+    url: "https://github.com/jsonrpcx/json-rpc-cxx/archive/v0.1.0.tar.gz"
+    sha256: "e5c9747327d747872b2f3fb787679baccdf8ff5515177b8029310f6c3b89520f"

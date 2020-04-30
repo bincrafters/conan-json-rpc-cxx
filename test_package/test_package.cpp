@@ -1,6 +1,11 @@
-// #include <cpprest/json.h>
+#include <jsonrpccxx/client.hpp>
+#include <jsonrpccxx/server.hpp>
+
+using namespace jsonrpccxx;
 
 int main()
 {
-    // const auto parsed_value = web::json::value::parse(U("-22"));
+  JsonRpc2Server rpcServer;
+
+  return 0;
 }

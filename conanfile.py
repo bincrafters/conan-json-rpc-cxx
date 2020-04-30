@@ -2,14 +2,15 @@ from conans import ConanFile, tools
 import os
 
 
-class LibnameConan(ConanFile):
-    name = "libname"
-    description = "Keep it short"
-    topics = ("conan", "libname", "logging")
-    url = "https://github.com/bincrafters/conan-libname"
-    homepage = "https://github.com/original_author/original_lib"
+class JsonRpcCxxConan(ConanFile):
+    name = "json-rpc-cxx"
+    description = "JSON-RPC for modern C++"
+    topics = ("conan", "json-rpc-cxx", "json-rpc")
+    url = "https://github.com/bincrafters/conan-json-rpc-cxx"
+    homepage = "https://github.com/jsonrpcx/json-rpc-cxx"
     license = "MIT"  # Indicates license type of the packaged library; please use SPDX Identifiers https://spdx.org/licenses/
     no_copy_source = True
+    requires = "jsonformoderncpp/3.7.0"
 
     _source_subfolder = "source_subfolder"
 
