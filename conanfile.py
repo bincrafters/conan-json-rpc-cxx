@@ -12,7 +12,7 @@ class JsonRpcCxxConan(ConanFile):
     license = "MIT"
     settings = "compiler"
     no_copy_source = True
-    requires = "jsonformoderncpp/3.7.0"
+    requires = "nlohmann_json/3.7.3"
 
     @property
     def _source_subfolder(self):
