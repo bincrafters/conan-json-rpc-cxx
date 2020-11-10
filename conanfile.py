@@ -26,7 +26,7 @@ class JsonRpcCxxConan(ConanFile):
             "gcc": "6",
             "clang": "3.9",
             "apple-clang": "10",
-            "Visual Studio": "17"
+            "Visual Studio": "15"
         }
         compiler = str(self.settings.compiler)
         if compiler not in minimal_version:
